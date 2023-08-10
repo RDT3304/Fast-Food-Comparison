@@ -1,0 +1,26 @@
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Apply styles to the Dropdown components */
+.Select-control, .Select--single > .Select-control .Select-value {
+    background-color: rgb(220, 220, 220); /* Light background for dropdown */
+    color: black !important; /* Dark text color for dropdown */
+}
+
+/* Apply styles to the dropdown menu options */
+.Select-option, .Select-value-label {
+    color: black !important; /* Dark text color for options */
+}
+
+/* Apply styles to the Graph components */
+.plot-container .plotly,
+.plot-container .svg-container {
+    background-color: #593a3a; /* Dark background for graphs */
+}
+
+/* Apply styles to the HTML components (optional) */
+h1, h3 {
+    color: #f0f0f0; /* Light text color for headers */
+}
